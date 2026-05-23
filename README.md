@@ -7,7 +7,6 @@ Este repositorio contiene el desarrollo de la **Actividad 2** para la asignatura
 1. [Descripción del Proyecto](#descripción-del-proyecto)
 2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
 3. [Estructura del Análisis](#estructura-del-análisis)
-4. [Instalación y Uso](#instalación-y-uso)
 5. [Autor](#autor)
 
 ## 🎯 Descripción del Proyecto
@@ -28,8 +27,9 @@ El desarrollo dentro del Notebook (`Actividad_2_IngalaKaren_ID_GPS_Imagen_Haar.i
 4. **Estimación y Remoción de Fondo:** Uso de un kernel de gran escala ($51 \times 51$) para estimar la iluminación base y sustraer matemáticamente las estructuras estáticas del mapa urbano $I_{corr}(x,y) = I(x,y) - B(x,y)$.
 5. **Transformada Wavelet 2D tipo Haar:** Implementación matricial manual (sin dependencias externas complejas) para descomponer la imagen en subbandas de frecuencia ($LL, LH, HL, HH$) y validación de reconstrucción exacta sin pérdidas.
 
-## 🚀 Instalación y Uso
+## ✒️ Autor
+**Karen Ingala** 
+**Asignatura:** Procesamiento Digital Multimedia
 
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/tu_usuario/tu_repositorio.git)
+**Profesor:** Jorge Cárdenas
+
